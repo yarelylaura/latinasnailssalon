@@ -37,7 +37,8 @@ body::before {
 
 
 #wrapper {
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -161,7 +162,7 @@ main {
     background: rgba(255,255,255,0.75);
     padding: 20px;
     border-radius: 10px;
-    width: 580px;
+    min-width: 0;
 }
 
 aside {
@@ -170,7 +171,7 @@ aside {
     padding: 20px;
     border-radius: 10px;
     transition: 0.3s;
-    width: 340px;
+    min-width: 0px;
 }
 
 aside:hover {
